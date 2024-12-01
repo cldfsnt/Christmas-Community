@@ -2,6 +2,7 @@ FROM node:20-alpine
 
 RUN apk --no-cache add curl
 
+ENV PORT=3000
 ENV DB_PREFIX=/data/dbs/
 ENV DB_LOG_FILE=/dev/null
 
